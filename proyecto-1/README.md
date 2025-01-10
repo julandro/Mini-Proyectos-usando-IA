@@ -116,7 +116,6 @@ Una vez instalado y estando en el entorno virtual puedes ejecutar el proyecto:
 
 ## Transformers y Ejecución de Modelos en Local
 
-En esta sección se basa en mis conocimientos
 
 ### Transformers
 
@@ -140,8 +139,16 @@ La biblioteca de transformers está dividida en varias capas, cada una enfocada 
 
 **Instalación:**
 
-```
+```bash
 pip install transformers
+```
+
+**Uso Básico:**
+
+Podemos empezar a usar la biblioteca de transformers de una manera muy sencilla y es importando el metodo pipeline
+
+```python
+from transformers import pipeline
 ```
 
 ---
