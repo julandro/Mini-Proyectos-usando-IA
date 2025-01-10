@@ -1,20 +1,20 @@
 # Mini-Proyectos usando modelos de IA con transformers 🤖
 
-##### Proyecto 1.
+#### Proyecto 1.
 
 ![Vista previa del proyecto 1](./assets/img/proyecto-1/ejemplo2.png)
 
-##### Proyecto 2.
+#### Proyecto 2.
 
 ![Vista previa del proyecto 2](./assets/img/proyecto-2/ejemploProyecto2-1.png)
 
-##### Proyecto 3.
+#### Proyecto 3.
 
 ![Vista previa del proyecto 3](./assets/img/proyecto-3/ejemploProyecto3-1.png)
 
 ## Descripción
 
-Tres Mini-Proyectos donde se usan algunos modelos de IA con la biblioteca de `transformers`, ya sea para analizar sentimiento a una oración, para un chatbot con una IA, o para un traductor que reproduzca el audio y el texto traducido
+Tres Mini-Proyectos donde se usan algunos modelos de IA con la biblioteca de `transformers`, ya sea para analizar el sentimiento a una oración, para un chatbot con una IA, o para un traductor que reproduzca el audio y el texto traducido
 
 ---
 
