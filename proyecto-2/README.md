@@ -1,12 +1,12 @@
-# Aplicación de Gestión de Tareas 📒
+# IA Chat
 
 #### Vista Previa
 
-![Vista previa del proyecto](assets/img/preview.png)
+![Vista previa del proyecto](../assets/img/proyecto-2/ejemploProyecto2-1.png)
 
 ## Descripción
 
-Este proyecto esta basado en un aplicativo de Gestión de Tareas, que nos puede servir para organizarnos con los pendientes que tengamos
+Este proyecto es una aplicativo de Chat con una IA usando el modelo `Qwen/Qwen2.5-0.5B-Instruct`. Es un modelo de generación de texto bastante liviano y útil para este tipo de proyectos
 
 ---
 
@@ -14,9 +14,6 @@ Este proyecto esta basado en un aplicativo de Gestión de Tareas, que nos puede 
 
 - [Instalación](#instalación)
 - [Uso](#uso)
-- [Características](#características)
-- [Estructura del Proyecto](#estructura-del-proyecto)
-- [Puntaje Sonarqube](#puntaje-sonarqube)
 - [Créditos](#créditos)
 - [Recursos y Enlaces Adicionales](#recursos-y-enlaces-adicionales)
 
@@ -24,8 +21,11 @@ Este proyecto esta basado en un aplicativo de Gestión de Tareas, que nos puede 
 
 ### Requisitos Previos
 
-1.  **Python**
-    Tener instalado Python en su versión 3.11.9
+- **Python**
+  Tener instalado `Python` en su versión `3.11.9`
+
+- **Git** _(opcional)_
+  Tener instalado `Git` para la clonación del proyecto
 
 ---
 
@@ -35,11 +35,11 @@ Sigue los pasos a continuación para configurar el proyecto en tu entorno local:
 
 1. **Clona el repositorio:**
    ```bash
-   git clone https://github.com/julandro/Aplicacion-Lista-de-Tareas-con-Python.git
+   git clone https://github.com/julandro/Mini-Proyectos-usando-IA.git
    ```
 2. **Navega al directorio del proyecto:**
    ```bash
-   cd proyecto
+   cd proyecto-2
    ```
 3. **Crea y Activa un entorno virtual:**
 
@@ -71,51 +71,15 @@ Una vez instalado y estando en el entorno virtual puedes ejecutar el proyecto:
   ```bash
   streamlit run ./app.py
   ```
+  Esto ejecutará la aplicación de Streamlit en tu navegador.
 
-## Características
+### Ejemplos de Uso
 
-#### Modos de uso
-
-- **[Sesion Actual]:** Esta es un sesión que nos permite agregar y marcar tareas por un periodo de tiempo limitado. Y se perderan sus datos si recargas la página
-- **[JSON]:** En este modo podemos interactuar directamente con un archivo JSON, por lo cual los datos perduraran por un periodo de tiempo ilimitado, tambien podremos ver las tareas agregadas al JSON, agregar tareas, marcarlas como realizadas y descargar el archivo
-- **[Database]:** En este modo interactuamos directamente con una base de datos sqlite en modo local, por lo cual los datos también perduraran por un periodo de tiempo ilimitado, podemos ver las tareas agregadas a la db, agregar tareas, marcarlas como realizadas y al hacerlo quedan eliminadas de la base de datos.
-
-#### Manejo de Archivos
-
-- **[Descarga de JSON]:** Con esta funcionalidad podremos descargar el json con el que estemos trabajando.
-- **[Importar JSON]:** Esta funcionalidad nos permite visualizar un archivo JSON externo en la tabla.
-- **[Guardar el JSON]:** Esta funcionalidad se nos muestra despues de ingresar un archivo JSON y nos permite reemplazar el archivo JSON externo por el actual
+![Imagen ejemplo 1](../assets/img/proyecto-2/ejemploProyecto2-1.png)
+![Imagen ejemplo 2](../assets/img/proyecto-2/ejemploProyecto2-2.png)
+![Imagen ejemplo 3](../assets/img/proyecto-2/ejemploProyecto2-3.png)
 
 ---
-
-### Tecnologías Utilizadas
-
-- **Python en su totalidad**
-- **Frontend:** Streamlit
-- **Librerias/Modulos:** Streamlit, Pandas, SQLalchemy
-- **Base de Datos:** SQLite
-
----
-
-## Estructura del Proyecto
-
-```plaintext
-APP-LISTADETAREAS-PYTHON/
-├── data/                # Directorio donde se almacena el JSON
-│   ├── datos.json     # El archivo .json para almacenar tareas
-├── db/                # Carpeta con archivos relacionados a la base de datos
-│   ├── db.db           # La base de datos SQL local
-│   ├── db.py     # Conexión a la base de datos junto con funciones importantes de conexion
-├── functions/                # Directorio que aloja las funcionalidades del proyecto
-│   ├── functions.py     # Funciones de manejo de datos y archivos
-├── app.py              # Código Fuente Principal
-├── requeriments.txt        # Modulos necesarios
-├── README.md           # Documentación principal
-```
-
-## Puntaje SonarQube
-
-![Vista previa del proyecto](assets/img/sonar.png)
 
 ## Créditos
 
@@ -130,4 +94,4 @@ APP-LISTADETAREAS-PYTHON/
 ## Recursos y Enlaces Adicionales
 
 - [Streamlit Documentacion](https://docs.streamlit.io/)
-- [SQLAlchemy Documentacion](https://docs.sqlalchemy.org/en/20/)
+- [Documentación del Modelo `Qwen/Qwen2.5-0.5B-Instruct`](https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct)

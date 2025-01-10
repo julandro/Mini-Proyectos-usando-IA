@@ -2,11 +2,11 @@
 
 #### Vista Previa
 
-![Vista previa del proyecto](../assets/img/ejemploProyecto3-3.png)
+![Vista previa del proyecto](../assets/img/proyecto-3/ejemploProyecto3-1.png)
 
 ## Descripción
 
-Este proyecto es una aplicación que le permite al usuario **traducir** un texto de **español a ingles** y genera el audio en inglés que se reproducirá automáticamente
+Este proyecto es una aplicación que le permite al usuario **traducir** un texto de **español a ingles** y genera el audio en inglés que se reproducirá automáticamente.
 
 ---
 
@@ -22,8 +22,11 @@ Este proyecto es una aplicación que le permite al usuario **traducir** un texto
 
 ### Requisitos Previos
 
-1.  **Python**
-    Tener instalado Python en su versión 3.11.9
+- **Python**
+  Tener instalado `Python` en su versión `3.11.9`
+
+- **Git** _(opcional)_
+  Tener instalado `Git` para la clonación del proyecto
 
 ---
 
@@ -33,11 +36,11 @@ Sigue los pasos a continuación para configurar el proyecto en tu entorno local:
 
 1. **Clona el repositorio:**
    ```bash
-   git clone https://github.com/julandro/Aplicacion-Lista-de-Tareas-con-Python.git
+   git clone https://github.com/julandro/Mini-Proyectos-usando-IA.git
    ```
 2. **Navega al directorio del proyecto:**
    ```bash
-   cd proyecto
+   cd proyecto-3
    ```
 3. **Crea y Activa un entorno virtual:**
 
@@ -72,10 +75,10 @@ Una vez instalado y estando en el entorno virtual puedes ejecutar el proyecto:
 
 ### Ejemplos de Uso
 
-![1](../assets/img/ejemploProyecto3-0.png)
-![1](../assets/img/ejemploProyecto3-1.png)
-![1](../assets/img/ejemploProyecto3-2.png)
-![1](../assets/img/ejemploProyecto3-3.png)
+![1](../assets/img/proyecto-3/ejemploProyecto3-0.png)
+![2](../assets/img/proyecto-3/ejemploProyecto3-1.png)
+![3](../assets/img/proyecto-3/ejemploProyecto3-2.png)
+![4](../assets/img/proyecto-3/ejemploProyecto3-3.png)
 
 ## Características
 

@@ -2,7 +2,7 @@
 
 #### Vista Previa
 
-![Vista previa del proyecto](assets/img/preview.png)
+![Vista previa del proyecto](../assets/img/proyecto-1/ejemplo2.png)
 
 ## Descripción
 
@@ -55,20 +55,20 @@ Sigue los pasos a continuación para configurar el proyecto en tu entorno local:
    ```
 2. **Navega al directorio del proyecto:**
    ```bash
-   cd proyecto
+   cd proyecto-1
    ```
 3. **Crea y Activa un entorno virtual:**
 
    - Con `python` en la terminal:
 
      ```bash
-     python -m venv .venv
+     python -m venv venv
      ```
 
    - Luego `Activalo`:
 
      ```bash
-     .venv/Scripts/activate
+     venv/Scripts/activate
      ```
 
 4. **Instala las dependencias o modulos del proyecto:**
@@ -96,21 +96,21 @@ Una vez instalado y estando en el entorno virtual puedes ejecutar el proyecto:
 
 ##### Positivo
 
-![Ejemplo de Uso en Español. 1](assets/img/ejemplo1.png)
+![Ejemplo de Uso en Español. 1](../assets/img/proyecto-1/ejemplo1.png)
 
 ##### Negativo
 
-![Ejemplo de Uso en Español. 2](assets/img/ejemplo2.png)
+![Ejemplo de Uso en Español. 2](../assets/img/proyecto-1/ejemplo2.png)
 
 #### Ejemplo de uso en Inglés
 
 ##### Positivo
 
-![Ejemplo de Uso en Inglés. 1](assets/img/ejemplo4.png)
+![Ejemplo de Uso en Inglés. 1](../assets/img/proyecto-1/ejemplo3.png)
 
 ##### Negativo
 
-![Ejemplo de Uso en Inglés. 2](assets/img/ejemplo3.png)
+![Ejemplo de Uso en Inglés. 2](../assets/img/proyecto-1/ejemplo4.png)
 
 ---
 
@@ -158,4 +158,4 @@ pip install transformers
 
 ## Recursos y Enlaces Adicionales
 
-- [Documentación del Modelo de IA Usado](https://docs.streamlit.io/)
+- [Documentación del Modelo de IA Usado](https://huggingface.co/nlptown/bert-base-multilingual-uncased-sentiment)
